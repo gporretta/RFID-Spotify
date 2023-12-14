@@ -45,7 +45,16 @@ def play_album(uid):
 
                 # Get ablum id from spotify
                 results = sp.search(q=f"album:{album_name} artist:{artist_name}", type='album')
+
+                # Get top result
                 album_id = results['albums']['items'][0]['id']
+
+                # Loop over each result to find exact match
+                # else just use top result
+                for result in (results['albums']['items']):
+                    if result['name'] == album_name:
+                        album_id = result['id']
+                      
                 print("    " + album_id)
 
                 # Get device ID
