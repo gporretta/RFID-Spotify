@@ -3,13 +3,18 @@
 import os
 import json
 import serial
+import serial.tools.list_ports
 
 # Can't ctrl c out of program without!
 import signal
 signal.signal(signal.SIGINT, signal.SIG_DFL)
 
 # Define the COM port and baud rate
-com_port = 'COM3'
+com_ports = serial.tools.list_ports.comports()
+for port in com_ports:
+        if port.description.__contains__("USB-SERIAL CH340"):
+            com_port = port.device
+            
 baud_rate = 9600
 
 # Open the serial port
