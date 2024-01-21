@@ -1,12 +1,52 @@
 [
   {
+    "album_name": "To Pimp a Butterfly",
+    "artist_name": "Kendrick Lamar",
+    "uid": "0c 84 71 0f"
+  },
+  {
+    "album_name": "Mr. Morale and the Big Steppers",
+    "artist_name": "Kendrick Lamar",
+    "uid": "0c 8c 71 0f"
+  },
+  {
     "album_name": "Social Cues",
-    "artist_name": "Cage the Elephant",
-    "uid": "a3 e4 c5 05"
+    "artist_name": "Cage The Elephant",
+    "uid": "cc 83 71 0f"
+  },
+  {
+    "album_name": "MM..FOOD",
+    "artist_name": "MF DOOM",
+    "uid": "8c 83 71 0f"
+  },
+  {
+    "album_name": "Is This It",
+    "artist_name": "The Strokes",
+    "uid": "0c 8d 71 0f"
+  },
+  {
+    "album_name": "Favorite Worst Nightmare",
+    "artist_name": "Artic Monkeys",
+    "uid": "4c 8d 71 0f"
+  },
+  {
+    "album_name": "Graduation",
+    "artist_name": "Kanye West",
+    "uid": "cc 8c 71 0f"
+  },
+  {
+    "album_name": "Heroes & Villains",
+    "artist_name": "Metro Boomin",
+    "uid": "cc 8b 71 0f"
+  },
+  {
+    "album_name": "Watch The Throne",
+    "artist_name": "JAY-Z Kanye West",
+    "uid": "4c 95 71 0f"
   },
   {
     "album_name": "My Dark Beautiful Twisted Fantasy",
     "artist_name": "Kanye West",
-    "uid": "c2 18 1b 4b"
+    "uid": "8c 8b 71 0f"
   }
 ]
